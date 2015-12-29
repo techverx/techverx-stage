@@ -174,12 +174,12 @@ img { border:0; }
 .homepage .page-bg { margin-top:109px; }
 .page-bg .caption { color: #fff; font-family: 'Enriqueta', serif; font-size: 50px; letter-spacing: 1px; margin-top: 280px; }
 
-.about-bg { background:url(../images/about-bg.gif) no-repeat; background-position: center top; background-size: 100% auto; }
-.contact-bg { background:url(../images/contact-bg.gif) no-repeat; background-position: center top; background-size: 100% auto; }
-.services-bg { background:url(../images/services-bg.gif) no-repeat; background-position: center top; background-size: 100% auto; }
-.teams-bg { background:url(../images/teams-bg.gif) no-repeat; background-position: center top; background-size: 100% auto; }
-.work-bg { background:url(../images/work-bg.gif) no-repeat; background-position: center top; background-size: 100% auto; }
-.contact-bg { background:url(../images/contact-bg.gif) no-repeat; background-position: center top; background-size: 100% auto; }
+.about-bg { background:url(../techverx/images/about-bg.gif) no-repeat; background-position: center top; background-size: 100% auto; }
+.contact-bg { background:url(../techverx/images/contact-bg.gif) no-repeat; background-position: center top; background-size: 100% auto; }
+.services-bg { background:url(../techverx/images/services-bg.gif) no-repeat; background-position: center top; background-size: 100% auto; }
+.teams-bg { background:url(../techverx/images/teams-bg.gif) no-repeat; background-position: center top; background-size: 100% auto; }
+.work-bg { background:url(../techverx/images/work-bg.gif) no-repeat; background-position: center top; background-size: 100% auto; }
+.contact-bg { background:url(../techverx/images/contact-bg.gif) no-repeat; background-position: center top; background-size: 100% auto; }
 
 .brd-red { border: 1px solid #eb533e; }
 

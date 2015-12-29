@@ -35,41 +35,49 @@
 
 
 </head>
-
+   <?php if(is_front_page()){ ?>
 <body class="homepage">
+<?php } else { ?>
+<body>
+<?php } ?>
 
     <div class="responsive-menu">
         <ul class="list list-unstyled">
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="services.html">SERVICES</a></li>
-            <li><a href="work.html">WORK</a></li>
-            <li><a href="teams.html">TEAMS</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="<?php echo get_page_link(8); ?>">ABOUT</a></li>
+            <li><a href="<?php echo get_page_link(12); ?>">SERVICES</a></li>
+            <li><a href="<?php echo get_page_link(14); ?>">WORK</a></li>
+            <li><a href="<?php echo get_page_link(29); ?>">TEAMS</a></li>
+            <li><a href="<?php echo get_page_link(32); ?>">CONTACT</a></li>
+            <li><a href="<?php echo get_page_link(35); ?>">BLOG</a></li>
             <li><a href="#">HIRE A TEAM</a></li>
             <li><a href="#">START A PROJECT</a></li>
         </ul>
     </div>
+    
 
+    
+    <?php if(is_front_page()){ ?>
 <p class="text-center video-text">
     STUCK FOR SOFTWARE?<br>
     <span>Let us help you out...</span><br>
     <a href="#"><i class="fa fa-angle-down fa-lg"></i></a>
 </p>
-
 <div class="fullscreen-bg" data-quality="420p">
     <video loop autoplay class="bgVideo">
         <source class="bgVideomp4" src="<?php bloginfo('template_directory'); ?>/videos/homepage.mp4" type="video/mp4">
     </video>
 </div>
+<?php } ?>
+
 
 <div class="header">
+  <div class="navbar-fixed-top">
     <div class="container">
 
     <div class="pull-right text-right small-menu"><i class="fa fa-bars fa-2x"></i></div>
       
         <div class="logo">
-          <a href="index.html"><img src="<?php bloginfo('template_directory'); ?>/images/techverx-logo.png" class="img-responsive"></a>
+          <a href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/techverx-logo.png" class="img-responsive"></a>
         </div>
         
         <div class="pull-right text-right">
@@ -77,12 +85,12 @@
 
             <div class="header-nav">
                 <ul class="list list-unstyled list-inline">
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="services.html">SERVICES</a></li>
-                    <li><a href="work.html">WORK</a></li>
-                    <li><a href="teams.html">TEAMS</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                    <li class="last"><a href="blog.html">BLOG</a></li>
+                    <li><a href="<?php echo get_page_link(8); ?>">ABOUT</a></li>
+                    <li><a href="<?php echo get_page_link(12); ?>">SERVICES</a></li>
+                    <li><a href="<?php echo get_page_link(14); ?>">WORK</a></li>
+                    <li><a href="<?php echo get_page_link(29); ?>">TEAMS</a></li>
+                    <li><a href="<?php echo get_page_link(32); ?>">CONTACT</a></li>
+                    <li class="last"><a href="<?php echo get_page_link(35); ?>">BLOG</a></li>
                 </ul>
             </div>
             <div class="clear5"></div>
@@ -93,9 +101,5 @@
         </div>
 
     </div>
+    </div>
 </div>
-
-
-<div class="clear"></div>
-
-<section>

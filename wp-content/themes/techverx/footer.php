@@ -55,11 +55,6 @@
 
             </div>            
         </div>
-
-
-    </div>
-</section>
-
 <!-- Scripts Start -->
 <script language="javascript" type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/techverx/jquery-1.11.3.min.js"></script>
 <script language="javascript" type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/techverx/bootstrap.min.js"></script>

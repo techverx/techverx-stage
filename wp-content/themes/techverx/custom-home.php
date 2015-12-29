@@ -6,6 +6,11 @@ Template Name: Home Template
 get_header();
 ?>
 
+
+<div class="clear"></div>
+
+<section>
+
     <div class="content">
         <div class="container">
             <div class="text-center">
@@ -163,6 +168,8 @@ get_header();
 
             </div>
         </div>
+        </div>
+        </section>
 
 <?php
 get_footer();
