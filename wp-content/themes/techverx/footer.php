@@ -43,7 +43,10 @@
                         <div class="clear20"></div>
                         <h4>JOIN OUR<br>NEWSLETTER</h4>
                         <div class="clear10"></div>
-                        <div class="text-center"><input class="form-control width-auto"></div>
+                        <div class="text-center">
+                        <!-- <input class="form-control width-auto"> -->
+                        <?php get_sidebar('newsletter'); ?>
+                        </div>
                     </div>
                 </div>
 
@@ -58,6 +61,7 @@
 <!-- Scripts Start -->
 <script language="javascript" type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/techverx/jquery-1.11.3.min.js"></script>
 <script language="javascript" type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/techverx/bootstrap.min.js"></script>
+<script language="javascript" type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/techverx/jquery.flexslider.js"></script>
 <script language="javascript" type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/techverx/custom.js"></script>
 <!-- Scripts End -->
 

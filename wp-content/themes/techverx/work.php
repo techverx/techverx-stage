@@ -57,7 +57,7 @@ get_header();
             <div class="red-line"></div>
             <div class="clear40"></div>
             <div class="row text-center">
-                <a href="#" class="btn btn-default btn-orange btn-large">LET'S TALK ABOUT YOUR PROJECT</a>
+                <a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-large">LET'S TALK ABOUT YOUR PROJECT</a>
             </div>            
         </div>
 

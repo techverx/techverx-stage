@@ -36,7 +36,7 @@ get_header();
                 <div class="clear20"></div>
                 
                 <div class="row text-center">
-                    <a href="#" class="btn btn-default btn-orange">MEET THE TEAMS <i class="fa fa-angle-right"></i></a>
+                    <a href="<?php echo get_page_link(29); ?>" class="btn btn-default btn-orange">MEET THE TEAMS <i class="fa fa-angle-right"></i></a>
                 </div>
 
                 <div class="clear40"></div>
@@ -135,7 +135,7 @@ get_header();
                 <div class="clear40"></div>
 
                 <div class="row text-center">
-                    <a href="work.html" class="btn btn-default btn-orange">SEE MORE <i class="fa fa-angle-right"></i></a>
+                    <a href="<?php echo get_page_link(14); ?>" class="btn btn-default btn-orange">SEE MORE <i class="fa fa-angle-right"></i></a>
                 </div>
 
                 <div class="clear40"></div><div class="clear20"></div>

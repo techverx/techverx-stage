@@ -25,6 +25,7 @@
 <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
 <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap-theme.min.css">
 <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/flexslider.css">
 <link type="text/css" rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/responsive.css">
 
@@ -49,8 +50,8 @@
             <li><a href="<?php echo get_page_link(29); ?>">TEAMS</a></li>
             <li><a href="<?php echo get_page_link(32); ?>">CONTACT</a></li>
             <li><a href="<?php echo get_page_link(35); ?>">BLOG</a></li>
-            <li><a href="#">HIRE A TEAM</a></li>
-            <li><a href="#">START A PROJECT</a></li>
+            <li><a href="<?php echo get_page_link(32); ?>">HIRE A TEAM</a></li>
+            <li><a href="<?php echo get_page_link(32); ?>">START A PROJECT</a></li>
         </ul>
     </div>
     
@@ -95,8 +96,8 @@
             </div>
             <div class="clear5"></div>
             <div class="cta">
-                <a href="#" class="btn btn-default btn-1">HIRE A TEAM</a>
-                <a href="#" class="btn btn-default btn-2">START A PROJECT</a>
+                <a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-1">HIRE A TEAM</a>
+                <a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-2">START A PROJECT</a>
             </div>
         </div>
 

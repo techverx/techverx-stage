@@ -41,37 +41,13 @@ get_header();
                     <div class="tech-block">Ruby</div>
                     <div class="tech-block">Ruby on Rails</div>
                     <div class="tech-block">RubyGems</div>
-                    <div class="tech-block">Haml</div>
-                    <div class="tech-block">jQuery</div>
-                    <div class="tech-block tbl-more">More >></div>
+                    <div class="tech-block">RubyMotion</div>
+                    <div class="tech-block">Ruboto</div>
                 </div>
                 <div>
-                    Industry Focus: <br>
-                    Team Size: <br>
-                    Projects Delivered:
-                </div>
-            </div>
-            <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
-        </div>
-
-        <div class="clear40"></div>
-
-        <div class="row teams">
-            <div class="col-md-2"><img src="<?php bloginfo('template_directory'); ?>/images/js.gif" class="img-responsive center-block"></div>
-            <div class="col-md-8">
-                <h4 class="orange-title">JavaScript Jedi</h4>
-                <div>
-                    <div class="tech-block">AngularJs</div>
-                    <div class="tech-block">Node.js</div>
-                    <div class="tech-block">Ember.js</div>
-                    <div class="tech-block">Express</div>
-                    <div class="tech-block">jQuery</div>
-                    <div class="tech-block tbl-more">More >></div>
-                </div>
-                <div>
-                    Industry Focus: <br>
-                    Team Size: <br>
-                    Projects Delivered:
+                    Industry Focus: Hospitality, Resource Management, Media & Entertainment, Healthcare, Automotive, Marketing, Ecommerce, Social Networking, CRM<br>
+                    Team Size: 18<br>
+                    Projects Delivered: 37
                 </div>
             </div>
             <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
@@ -89,12 +65,35 @@ get_header();
                     <div class="tech-block">Windows</div>
                     <div class="tech-block">Blackberry</div>
                     <div class="tech-block">PhoneGap</div>
-                    <div class="tech-block tbl-more">More >></div>
+                    <div class="tech-block">Ionic</div>
                 </div>
                 <div>
-                    Industry Focus: <br>
-                    Team Size: <br>
-                    Projects Delivered:
+                    Industry Focus: Resource Management, Games, Media & Entertainment, Education, Advertising & Promotion, Scheduling, Sales, Social Messaging<br>
+                    Team Size: 8<br>
+                    Projects Delivered: 33
+                </div>
+            </div>
+            <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+        </div>
+
+        <div class="clear40"></div>        
+
+        <div class="row teams">
+            <div class="col-md-2"><img src="<?php bloginfo('template_directory'); ?>/images/js.gif" class="img-responsive center-block"></div>
+            <div class="col-md-8">
+                <h4 class="orange-title">JavaScript Jedi</h4>
+                <div>
+                    <div class="tech-block">AngularJs</div>
+                    <div class="tech-block">Node.js</div>
+                    <div class="tech-block">Ember.js</div>
+                    <div class="tech-block">Express</div>
+                    <div class="tech-block">jQuery</div>
+                    <div class="tech-block">CoffeeScript</div>
+                </div>
+                <div>
+                    Industry Focus: Resource Management, Scheduling, Hospitality, CRM, Automotive, Marketing, Ecommerce, Healthcare, Authentication, Finance<br>
+                    Team Size: 9<br>
+                    Projects Delivered: 40
                 </div>
             </div>
             <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
@@ -103,23 +102,21 @@ get_header();
         <div class="clear40"></div>
 
 
-
         <div class="row teams">
-            <div class="col-md-2"><img src="<?php bloginfo('template_directory'); ?>/images/php.gif" class="img-responsive center-block"></div>
+            <div class="col-md-2"><img src="<?php bloginfo('template_directory'); ?>/images/frontend-falcons.gif" class="img-responsive center-block"></div>
             <div class="col-md-8">
-                <h4 class="orange-title">PHP Pros</h4>
+                <h4 class="orange-title">Front End Falcons</h4>
                 <div>
-                    <div class="tech-block">CodeIgniter</div>
-                    <div class="tech-block">Symfony</div>
-                    <div class="tech-block">CakePHP</div>
-                    <div class="tech-block">Zend</div>
-                    <div class="tech-block">Laravel</div>
-                    <div class="tech-block tbl-more">More >></div>
+                    <div class="tech-block">Bootstrap</div>
+                    <div class="tech-block">HTML5</div>
+                    <div class="tech-block">HAML</div>
+                    <div class="tech-block">Sass</div>
+                    <div class="tech-block">CSS3</div>
                 </div>
                 <div>
-                    Industry Focus: <br>
-                    Team Size: <br>
-                    Projects Delivered:
+                    Industry Focus: Media & Entertainment, Ecommerce, Games, CRM, Education, Corporate Websites, Marketing, Customization, Manufacturing<br>
+                    Team Size: 6<br>
+                    Projects Delivered: 100+
                 </div>
             </div>
             <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
@@ -132,30 +129,82 @@ get_header();
             <div class="col-md-8">
                 <h4 class="orange-title">.Net Naturals</h4>
                 <div>
-                    <div class="tech-block">.Net Framework</div>
-                    <div class="tech-block">Asp.Net MVC</div>
-                    <div class="tech-block">Asp.Net WEBAPI</div>
-                    <div class="tech-block">MWM</div>
-                    <div class="tech-block tbl-more">More >></div>
+                    <div class="tech-block">.Net</div>
+                    <div class="tech-block">Asp.Net MVC/WEBAPI</div>
+                    <div class="tech-block">C#</div>
+                    <div class="tech-block">WPF</div>
+                    <div class="tech-block">WMF</div>
+                    <div class="tech-block">VC++</div>
                 </div>
                 <div>
-                    Industry Focus: <br>
-                    Team Size: <br>
-                    Projects Delivered:
+                    Industry Focus: Custom Business Solutions, Hospitality, Resource Management, Scheduling, Point of Sale, Manufacturing<br>
+                    Team Size: 5<br>
+                    Projects Delivered: 15
                 </div>
             </div>
             <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
         </div>
 
+        <div class="clear40"></div>
+
+        <div class="row teams">
+            <div class="col-md-2"><img src="<?php bloginfo('template_directory'); ?>/images/design-dragons.gif" class="img-responsive center-block"></div>
+            <div class="col-md-8">
+                <h4 class="orange-title">Design Dragons</h4>
+                <div>
+                    <div class="tech-block">illustration</div>
+                    <div class="tech-block">Graphics</div>
+                    <div class="tech-block">Art Direction</div>
+                    <div class="tech-block">UI/UX</div>
+                    <div class="tech-block">Video</div>
+                    <div class="tech-block">Photography</div>
+                </div>
+                <div>
+                    Industry Focus: Corporate Websites, Media & Entertainment, Fashion, Corporate IDs, Ecommerce, Social Media, Print Media, Game Design<br>
+                    Team Size: 4<br>
+                    Projects Delivered: 23
+                </div>
+            </div>
+            <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+        </div>
+
+        <div class="clear40"></div>        
+
+        <div class="row teams">
+            <div class="col-md-2"><img src="<?php bloginfo('template_directory'); ?>/images/php.gif" class="img-responsive center-block"></div>
+            <div class="col-md-8">
+                <h4 class="orange-title">PHP Pros</h4>
+                <div>
+                    <div class="tech-block">CodeIgniter</div>
+                    <div class="tech-block">Symfony</div>
+                    <div class="tech-block">CakePHP</div>
+                    <div class="tech-block">Zend</div>
+                    <div class="tech-block">Laravel</div>
+                    <div class="tech-block">Yii</div>
+                    <div class="tech-block">Magento</div>
+                </div>
+                <div>
+                    Industry Focus: Ecommerce, Media & Entertainment, CRM, Custom Business Solutions, Resource Management, Scheduling<br>
+                    Team Size: 7<br>
+                    Projects Delivered: 25
+                </div>
+            </div>
+            <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+        </div>
+
+        
+
+        
+
         <div class="clear40"></div><div class="clear40"></div>
 
         <div class="text-center">
-            <a href="#" class="btn btn-default btn-orange">SEE MORE TEAMS</a>
+            <a href="<?php echo get_page_link(29); ?>" class="btn btn-default btn-orange">SEE MORE TEAMS</a>
         </div>
 
         <div class="clear40"></div>
 
     </div>
-</div>
+    </div>
 </section>
 <?php get_footer(); ?>
