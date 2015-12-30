@@ -76,7 +76,7 @@ get_header();
         <div class="col-md-6">
             <img src="<?php bloginfo('template_directory'); ?>/images/rao-mohsin-raza.gif" class="img-responsive center-block img-rounded brd-red">
             <h3>RAO MOHSIN RAZA</h3>
-            <h4>Founder & CEO</h4>
+            <h4>Founder</h4>
             <p class="text-justify">We have a remarkably low turnover rate, because we believe there is no point in doing something if it’s not fun. Great products turn us on and we are always striving to one up ourselves by staying on the cutting edge of technology and approaches, because our biggest competition is ourselves.</p>
         </div>
         <div class="col-md-6">

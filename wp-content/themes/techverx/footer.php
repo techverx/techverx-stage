@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4 left">
                         <h4>TECHVERX USA</h4>
-                        <p>HILLSBORO, OR 97124<br>(+1) 844-539-3562</p>
+                        <p>15403 Foster Drive North Hugo <br>Minnesota 55038<br>+1 845 205 5842</p>
                         <div class="clear10"></div>
                         <h4>TECHVERX HOUSE</h4>
                         <p>335 R, Main Boulevard,<br>Johar Town, Phase II<br>Lahore, Pakistan<br>+92 42 35956398</p>
