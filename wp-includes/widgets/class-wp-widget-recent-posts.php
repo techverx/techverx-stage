@@ -72,24 +72,41 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 		if ($r->have_posts()) :
 		?>
 		<?php echo $args['before_widget']; ?>
-		<?php if ( $title ) {
+		  <div class="wgt-box">
+		  <h3 class="side-widget-title">Recent Posts</h3>
+
+	<!-- 	<?php if ( $title ) {
 			echo $args['before_title'] . $title . $args['after_title'];
-		} ?>
-		<ul>
-		<?php while ( $r->have_posts() ) : $r->the_post(); ?>
-			<li>
-				<a href="<?php the_permalink(); ?>"><?php get_the_title() ? the_title() : the_ID(); ?></a>
-			<?php if ( $show_date ) : ?>
-				<span class="post-date"><?php echo get_the_date(); ?></span>
-			<?php endif; ?>
-			</li>
-		<?php endwhile; ?>
-		</ul>
+		} ?> -->
+			<?php while ( $r->have_posts() ) : $r->the_post(); ?>
+			<?php	$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+    <div class="row">
+    	<div class="col-md-4 col-sm-4 col-xs-4 no-padding-right">
+    		<a href="#"><img src="<?php echo $url; ?>" class="img-responsive center-block"></a>
+    	</div>
+    	<div class="col-md-8 col-sm-8 col-xs-8">
+
+    		<div class="recent-block">
+    			<a href="<?php the_permalink(); ?>" class="title"><?php get_the_title() ? the_title() : the_ID(); ?></a>
+    			<?php if ( $show_date ) : ?>
+    			<div class="date"><?php echo get_the_date(); ?></div>
+    				<?php endif; ?>
+    		</div>
+
+    	</div>
+    		</div>
+    			<?php endwhile; ?>
+		
+
 		<?php echo $args['after_widget']; ?>
 		<?php
 		// Reset the global $the_post as this query will have stomped on it
 		wp_reset_postdata();
+		?>
 
+	
+		</div>
+		<?php
 		endif;
 	}
 

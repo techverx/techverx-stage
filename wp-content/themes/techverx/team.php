@@ -199,12 +199,52 @@ get_header();
         <div class="clear40"></div><div class="clear40"></div>
 
         <div class="text-center">
-            <a href="<?php echo get_page_link(29); ?>" class="btn btn-default btn-orange">SEE MORE TEAMS</a>
+            <a href="#" class="btn btn-default btn-orange  smo-frm">SEE MORE TEAMS</a>
         </div>
+
+        <div class="see-more-frm">
+<div><h3 class="text-center">See More Teams</h3></div>
+<div class="text-center"><div class="red-line"></div></div>
+<div class="clear20"></div>
+
+<p>Let us know your exact requirements and we’ll send you the information you’re looking for within the day.</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <label>My email</label>
+                <input type="text" class="form-control" value="" id="">
+            </div>
+            <div class="col-md-6">
+                <label>Specific technology</label>
+                <input type="text" class="form-control" value="" id="">
+            </div>
+            <div class="col-md-12">
+                <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> I only want to work with onshore teams
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Keep me updated with Techverx USA news and goodies
+                    </label>
+                </div>
+            </div>
+
+            <div class="clear20"></div>
+
+            <div class="text-center smo">
+                <button type="button" class="btn btn-default btn-1">Send Hiring Request</button>
+            </div>
+
+        </div>
+</div>
 
         <div class="clear40"></div>
 
     </div>
     </div>
 </section>
+
+
 <?php get_footer(); ?>

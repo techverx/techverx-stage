@@ -61,9 +61,10 @@
 <p class="text-center video-text">
     STUCK FOR SOFTWARE?<br>
     <span>Let us help you out...</span><br>
-    <a href="#"><i class="fa fa-angle-down fa-lg"></i></a>
+    <a href="#" class="offer-section-go"><i class="fa fa-angle-down fa-lg"></i></a>
 </p>
 <div class="fullscreen-bg" data-quality="420p">
+ <div class="dots"></div>
     <video loop autoplay class="bgVideo">
         <source class="bgVideomp4" src="<?php bloginfo('template_directory'); ?>/videos/homepage.mp4" type="video/mp4">
     </video>
@@ -96,7 +97,7 @@
             </div>
             <div class="clear5"></div>
             <div class="cta">
-                <a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-1">HIRE A TEAM</a>
+                <a href="#" data-toggle="modal" data-target="#hireTeam" class="btn btn-default btn-1">HIRE A TEAM</a>
                 <a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-2">START A PROJECT</a>
             </div>
         </div>

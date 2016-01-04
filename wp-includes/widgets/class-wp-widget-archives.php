@@ -45,9 +45,13 @@ class WP_Widget_Archives extends WP_Widget {
 		$title = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'Archives' ) : $instance['title'], $instance, $this->id_base );
 
 		echo $args['before_widget'];
-		if ( $title ) {
-			echo $args['before_title'] . $title . $args['after_title'];
-		}
+		?>
+		<div class="wgt-box">
+ <h3 class="side-widget-title">Archive</h3>
+<?php
+		// if ( $title ) {
+		// 	echo $args['before_title'] . $title . $args['after_title'];
+		// }
 
 		if ( $d ) {
 			$dropdown_id = "{$this->id_base}-dropdown-{$this->number}";
@@ -94,7 +98,8 @@ class WP_Widget_Archives extends WP_Widget {
 
 		</select>
 		<?php } else { ?>
-		<ul>
+		  <div class="archive-box">
+		<ul class="list-unstyled">
 		<?php
 		/**
 		 * Filter the arguments for the Archives widget.
@@ -111,6 +116,8 @@ class WP_Widget_Archives extends WP_Widget {
 		) ) );
 		?>
 		</ul>
+		</div>
+		</div>
 		<?php
 		}
 

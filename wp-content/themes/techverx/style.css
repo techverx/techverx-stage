@@ -66,6 +66,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
  /* Custom CSS Styles */
 
  /* Custom CSS Styles */
+
+ /* Custom CSS Styles */
 body { background-color:#fff; font-family: 'Didact Gothic', sans-serif; font-size:17px; font-weight:300; width:100%; height:100%; overflow-x:hidden !important; }
 
 .oswald { font-family: 'Oswald', sans-serif; }
@@ -73,7 +75,7 @@ body { background-color:#fff; font-family: 'Didact Gothic', sans-serif; font-siz
 .libre { font-family: 'Libre Baskerville', serif; }
 .enriqueta { font-family: 'Enriqueta', serif; }
 
-p { color: #6e7272; font-family: 'Didact Gothic', sans-serif; }
+p { color: #6e7272; font-family: 'Didact Gothic', sans-serif; text-align: justify; }
 
 .relative { position: relative; }
 
@@ -92,7 +94,7 @@ img { border:0; }
 
 .fullscreen-bg {
     position: absolute;
-    top: -150px;
+    top: 110px;
     right: 0;
     left: 0;
     overflow: hidden;
@@ -108,7 +110,7 @@ img { border:0; }
     height: auto;
 }
 
-.video-text { font-family: 'Enriqueta', serif; position: absolute; font-size: 50px; font-weight: normal; color: #fff; z-index: 9999; width: 100%; top: 360px; letter-spacing: 0.1em; line-height: 10px; }
+.video-text { font-family: 'Enriqueta', serif; position: absolute; font-size: 50px; font-weight: normal; color: #fff; z-index: 9999; width: 100%; top: 460px; letter-spacing: 0.1em; line-height: 10px; text-shadow:1px 1px 10px #000; }
 .video-text span { font-size: 23px; font-style: italic; letter-spacing: 0.15em; font-family: 'Libre Baskerville', serif; line-height: 100px; }
 .video-text a { color: #fff; }
 
@@ -123,25 +125,28 @@ img { border:0; }
 .header .header-nav ul li a:hover, .header .header-nav ul .active a { color:#ec8f50 !important; }
 .header .cta { float: right; text-align: right; }
 
-.header .cta .btn-default { background-image: none; background-color: transparent; border-radius:0; border: 2px solid #ed8844; color: #2f2e2e; text-shadow:none; font-family: 'Enriqueta', serif; font-size: 16px; }
-.header .cta .btn-default:hover { background-color:#ed8844; color: #fff; border: 2px solid #ed8844; }
-.header .cta .btn-1 { margin-right: 20px; }
-.header .cta .btn-2 { margin-right: 5px; }
+.header .cta .btn-default, .modal .btn-default, .smo .btn-default { background-image: none; background-color: transparent; border-radius:0; border: 2px solid #ed8844; color: #2f2e2e; text-shadow:none; font-family: 'Enriqueta', serif; font-size: 16px; }
+.header .cta .btn-default:hover, .modal .btn-default:hover, .smo .btn-default:hover { background-color:#ed8844; color: #fff; border: 2px solid #ed8844; }
+.header .cta .btn-1, .modal .btn-1, .smo .btn-1 { margin-right: 20px; }
+.header .cta .btn-2, .modal .btn-2 { margin-right: 5px; }
 
-.btn-orange { background-image: none; background-color: transparent; border-radius:0; border: 1px solid #ed8844; color: #2f2e2e; text-shadow:none; font-family: 'Enriqueta', serif; font-size: 16px; }
+.btn-orange { background-image: none; background-color: transparent; border-radius:0; border: 1px solid #ed8844; color: #2f2e2e; text-shadow:none; font-family: 'Enriqueta', serif; font-size: 14px; }
 .btn-orange:hover, .btn-orange-current, .btn-orange:focus { background-color:#ed8844; color: #fff; border: 1px solid #ed8844; }
 .btn-large { font-size: 32px; border-width: 2px; }
 .btn-large:hover { border-width: 2px; }
+.btn-orange-current-2 { background-color:#ed8844; color: #fff !important; border: 1px solid #ed8844; }
 
 .btn-contact { border-radius: 10px; font-size: 20px; padding-top: 16px; padding-bottom: 16px; }
 .btn-contact-2 { border-radius: 10px; font-size: 20px; padding: 16px 26px 16px 26px; }
+.btn-contact-3 { border-radius: 10px; }
 .or-seprator { font-size: 22px; margin-top: 14px; }
 
 .and-style { color: #2F2E2E; font-family: 'Enriqueta', serif; font-size: 50px; background-color: #fff; display: inline-block; padding:8px 0; margin-top: 70px; }
 .and-bg { width:220px; height: 1px; line-height: 1px; font-size: 0; background-color: #f22c2d; -ms-transform: rotate(90deg); -webkit-transform: rotate(90deg); transform: rotate(90deg); position: absolute; z-index: -1; left: -13px; right: 0; top: 120px; bottom: 0; }
 
-.homepage .content { margin-top: 670px; clear: both; }
-.content h3 { font-family: 'Enriqueta', serif; font-size: 50px; letter-spacing: 5px; color: #2F2E2E; line-height: 1.4em; }
+.homepage .content { margin-top: 880px; clear: both; }
+.content h3, .modal h3 { font-family: 'Enriqueta', serif; font-size: 50px; letter-spacing: 5px; color: #2F2E2E; line-height: 1.4em; }
+.modal h3 { margin-top: 0; }
 
 .offers p { font-size: 16px; font-weight: normal; font-family: 'Didact Gothic', sans-serif; color: #787676; }
 .red-line { height: 1px; line-height: 1px; font-size: 0; background-color: #f22c2d; width: 300px; display: inline-block; }
@@ -200,7 +205,7 @@ img { border:0; }
 
 .orange-title { font-family: 'Libre Baskerville', serif; font-weight: bold; font-style: italic; color: #EB533E; font-size: 24px; margin-top: 0; }
 .orange-title-2 { font-family: 'Libre Baskerville', serif; font-weight: bold; font-style: italic; color: #EB533E; font-size: 18px; margin-top: 0; }
-.orange-title-3 { font-family: 'Enriqueta', serif; font-weight: bold; color: #EB533E; font-size: 20px; margin-top: 0; }
+.orange-title-3 { font-family: 'Enriqueta', serif; font-weight: bold; color: #EB533E; font-size: 24px; margin-top: 0; }
 
 .teams img { margin-top: 40px; margin-bottom: 40px; }
 .teams .btn { margin-top: 60px; border-radius: 4px; }
@@ -220,13 +225,13 @@ img { border:0; }
 .img-right { margin-left: 40px; margin-bottom: 20px; }
 
 .frm-project { display: none; }
-.lg-fields label { display: block; text-align: center; font-size: 20px; font-weight: normal; margin-bottom: 10px; }
+.lg-fields label { display: block; text-align: center; font-size: 20px; font-weight: bold; margin-bottom: 10px; letter-spacing: 1px; }
 .lg-fields .form-control { font-size: 20px; padding: 22px 12px !important; }
 .lg-fields .padding-normal { padding: 12px !important; }
 
 .lg-fields input[type=checkbox], input[type=radio] { margin: 10px 0 0 -20px; }
-.lg-fields .file { padding: 1px 6px 1px 1px !important; }
-.lg-fields .text-left label { text-align: left; }
+.lg-fields .file { padding: 8px 6px 10px 9px !important; border-radius: 10px; height: 48px; }
+.lg-fields .text-left label { text-align: center; }
 
 .post-block { border:1px solid #2f2e2e; margin-bottom: 30px; padding: 20px; }
 .post-block .title { font-size: 26px; margin-top: 0; }
@@ -234,7 +239,7 @@ img { border:0; }
 .post-block .title a:hover { text-decoration: underline; }
 .post-block .date { font-size: 14px; margin-bottom: 20px; }
 .post-block .post-image { margin-bottom: 20px; }
-.post-block .post-excerpt { margin-bottom: 20px; font-size: 16px; }
+.post-block .post-excerpt { margin-bottom: 20px; font-size: 16px; text-align: justify; }
 
 .more a { background-color: #727272; color: #fff; display: inline-block; padding: 2px 12px; }
 .more a:hover { background-color: #868686; }
@@ -257,3 +262,42 @@ img { border:0; }
 .flexslider .title  { color: #605e5e; }
 .flexslider .date  { color: #605e5e; font-size: 14px; }
 
+.pagination>li>a, .pagination>li>span { color: #605e5e; }
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover { color: #605e5e; }
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover 
+{ background-color: #605e5e; border-color: #605e5e; }
+
+.frm-message, .btns, .frm-project { padding:0 100px; }
+.frm-message .form-control, .frm-project .form-control { border-radius: 10px; }
+
+.dots { background:url(../techverx/images/dots.png); width: 100%; height: 100%; position: absolute; }
+.specify-other { display: none; }
+
+#hireTeam { z-index: 999999; }
+#hireTeam .modal-body { padding: 20px 30px; }
+
+.modal .checkbox, .modal .radio { margin-top: 0px; }
+.modal label { font-weight: normal; }
+.modal-footer-center { text-align: center !important; }
+
+.inline-checkbox .checkbox { display: inline-block; margin-right: 10px; }
+.inline-checkbox .checkbox input[type=checkbox], input[type=radio] { margin: 6px 0px 0px -20px; }
+.inline-checkbox .checkbox label, .inline-checkbox .radio label { padding-left: 20px; }
+.inline-checkbox .checkbox, .inline-checkbox .radio { margin-top: 5px; margin-bottom: 0px; }
+
+label { color: #eb533e; }
+.checkbox label, .radio label { color: #6e7272; }
+
+.see-more-frm { display: none; }
+.custom-check .hidden-check { display: none; }
+.btn-3 {
+    background-image: none;
+    background-color: transparent;
+    border-radius: 0;
+    border: 2px solid #ed8844;
+    color: #2f2e2e;
+    text-shadow: none;
+    font-family: 'Enriqueta', serif;
+    font-size: 16px;
+}
+.btn-3:hover{background-color:#ed8844; color: #fff; border: 2px solid #ed8844;  }

@@ -14,7 +14,7 @@ get_header();
     <div class="content">
         <div class="container">
             <div class="text-center">
-                <h3>WE OFFER</h3>
+                <h3 class="offer-section">WE OFFER</h3>
                 <div class="clear30"></div>
                 <div class="row text-center offers">
                     <div class="col-md-5 col-sm-5">
@@ -82,22 +82,22 @@ get_header();
                     <div class="col-md-3 col-sm-3">
                         <img src="<?php bloginfo('template_directory'); ?>/images/w1.gif" class="img-responsive center-block">
                         <h4>10 YEARS</h4>
-                        <p>in business</p>
+                        <p class="text-center">in business</p>
                     </div>
                     <div class="col-md-3 col-sm-3">
                         <img src="<?php bloginfo('template_directory'); ?>/images/w2.gif" class="img-responsive center-block">
                         <h4>150+</h4>
-                        <p>global team</p>
+                        <p class="text-center">global team</p>
                     </div>
                     <div class="col-md-3 col-sm-3">
                         <img src="<?php bloginfo('template_directory'); ?>/images/w3.gif" class="img-responsive center-block">
                         <h4>300+</h4>
-                        <p>successful projects</p>
+                        <p class="text-center">successful projects</p>
                     </div>
                     <div class="col-md-3 col-sm-3">
                         <img src="<?php bloginfo('template_directory'); ?>/images/w4.gif" class="img-responsive center-block">
                         <h4>30+</h4>
-                        <p>happy clients</p>
+                        <p class="text-center">happy clients</p>
                     </div>
                 </div>
 
@@ -107,7 +107,11 @@ get_header();
                     <a href="#" class="btn btn-default btn-orange">WHY TECHVERX <i class="fa fa-angle-right"></i></a>
                 </div>
 
-                <div class="clear40"></div>
+
+
+
+
+                 <div class="clear40"></div>
 
                 <div><h3>HAVE A LOOK AT<br>SOME OF OUR WORK</h3></div>
                 <div class="red-line"></div>
@@ -116,19 +120,19 @@ get_header();
 
                 <div class="row text-center">
                     <div class="col-md-6 col-sm-6">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/work-1.gif" class="img-responsive center-block">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/projects/trackmyassets-small.gif" class="img-responsive center-block img-rounded brd-red">
                     </div>
                     <div class="col-md-6 col-sm-6">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/work-2.gif" class="img-responsive center-block">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/projects/myfoodfast-small.gif" class="img-responsive center-block img-rounded brd-red">
                     </div>
                 </div>
                 <div class="clear20"></div>
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/work-3.gif" class="img-responsive center-block">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/projects/drivingloyalty-small.gif" class="img-responsive center-block img-rounded brd-red">
                     </div>
                     <div class="col-md-6 col-sm-6">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/work-4.gif" class="img-responsive center-block">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/projects/amishtables-small.gif" class="img-responsive center-block img-rounded brd-red">
                     </div>
                 </div>
 
@@ -165,6 +169,17 @@ get_header();
                 </div>
 
                 <div class="clear40"></div>
+
+                <div><h3>SO, HOW CAN<br>WE HELP YOU?</h3></div>
+                <div class="red-line"></div>
+
+                <div class="clear40"></div><div class="clear40"></div>
+
+                <div class="row text-center">
+                    <a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-large">LET'S TALK ABOUT YOUR PROJECT</a>
+                </div>
+
+                <div class="clear40"></div><div class="clear40"></div>
 
             </div>
         </div>

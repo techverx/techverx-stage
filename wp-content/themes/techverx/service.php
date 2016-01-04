@@ -51,13 +51,14 @@ get_header();
                 We have specialists for high quality native & hybrid (PhoneGap) Android and iOS app development, as well as Windows and Blackberry. We have crafted a variety of top rated apps covering games, entertainment, education, rating systems and more. All our app developers are Android and iOS certified.​</p>
             </div>
 
-            <div class="col-md-4">
-                <h4 class="text-center">Design</h4>
+               <div class="col-md-4">
+                <h4 class="text-center">Developers For Hire</h4>
                 <div class="clear"></div>
                 <p class="text-justify">
-                <img src="<?php bloginfo('template_directory'); ?>/images/design.gif" class="pull-left left-img">
-                We are also a web design company. Our experienced web & graphic designers know the nuances of UI/UX and under the keen eye of our Chief Creative Officer, deliver smart, conversion optimized websites without ever compromising on the aesthetic value.​ We also offer logo design, corporate ID development and print/digital publication deisgn.</p>
+                <img src="<?php bloginfo('template_directory'); ?>/images/dfh.gif" class="pull-left left-img">
+                You can outsource our software developers to work for you on competitive hourly rates. Our Ruby programming and Rails development experts are among the best in the world. We have highly experienced teams of web and mobile developers available, both onshore and offshore, who'll work while you sleep, giving you exceptional quality and total peace of mind.</p>
             </div>
+          
 
         </div>
 
@@ -81,16 +82,16 @@ get_header();
                 Our veteran software SWATs are adept at daring rescues of distressed development projects, cleaning up your previous team’s messes, picking up the pieces and tying loose ends, so your software is up and running exactly as you intended it to.​ All such projects we have taken on, we've ended up becoming the primary development partner for every client on repeat and ongoing basis.</p>
             </div>
 
-            <div class="col-md-4">
-                <h4 class="text-center">Developers For Hire</h4>
+              <div class="col-md-4">
+                <h4 class="text-center">Design</h4>
                 <div class="clear"></div>
                 <p class="text-justify">
-                <img src="<?php bloginfo('template_directory'); ?>/images/dfh.gif" class="pull-left left-img">
-                You can outsource our software developers to work for you on competitive hourly rates. Our Ruby programming and Rails development experts are among the best in the world. We have highly experienced teams of web and mobile developers available, both onshore and offshore, who'll work while you sleep, giving you exceptional quality and total peace of mind.</p>
+                <img src="<?php bloginfo('template_directory'); ?>/images/design.gif" class="pull-left left-img">
+                We are also a web design company. Our experienced web & graphic designers know the nuances of UI/UX and under the keen eye of our Chief Creative Officer, deliver smart, conversion optimized websites without ever compromising on the aesthetic value.​ We also offer logo design, corporate ID development and print/digital publication deisgn.</p>
             </div>
-
         </div>        
 
+        <div class="clear40"></div>
         <div class="clear40"></div>
 
         <div class="text-center">
@@ -102,6 +103,7 @@ get_header();
         </div>
         </div>
 
+        <div class="clear40"></div>
         <div class="clear40"></div>
 
     </div>    

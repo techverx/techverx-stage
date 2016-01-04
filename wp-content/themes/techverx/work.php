@@ -51,6 +51,7 @@ get_header();
         </div>
 
         <div class="clear40"></div>
+        <div class="clear40"></div>
 
         <div class="text-center">
             <div><h3>WHAT CAN WE<br>BUILD FOR YOU?</h3></div>
@@ -61,6 +62,7 @@ get_header();
             </div>            
         </div>
 
+        <div class="clear40"></div>
         <div class="clear40"></div>
 
     </div>    

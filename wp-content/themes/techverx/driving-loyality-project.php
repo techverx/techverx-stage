@@ -35,10 +35,12 @@ get_header();
             <div class="col-md-7">
                 <h4 class="orange-title-2">The Challenge</h4>
                 <p class="text-justify">Scott Davis of Fort Myers, FL was dissatisfied with his existing development and was facing a number of issues, the chief among them being data extraction and reporting systems. His previous team was having trouble taming the massive amounts of data and articulating it an efficient and organized manner.</p>
-                <div class="clear40"></div>
+                <div class="clear20"></div>
                 <img src="<?php bloginfo('template_directory'); ?>/images/dl-3.gif" class="img-responsive center-block img-rounded brd-red shadowed">
             </div>
             <div class="col-md-5">
+                <div class="clear40"></div>
+                <div class="clear40"></div>
                 <img src="<?php bloginfo('template_directory'); ?>/images/dl-2.gif" class="img-responsive center-block img-rounded brd-red shadowed">
             </div>
         </div>
@@ -112,6 +114,7 @@ get_header();
             <div class="text-center">You can visit www.drivingloyalty.com to learn more</div>
         </div>
         <div class="col-md-6">
+            <div class="clear40"></div>
             <img src="<?php bloginfo('template_directory'); ?>/images/dl-5.gif" class="img-responsive center-block brd-red shadowed img-rounded">
         </div>
     </div>

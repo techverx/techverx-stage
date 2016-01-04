@@ -111,6 +111,7 @@ get_header();
     </div>
 
     <div class="clear40"></div>
+        <div class="clear40"></div>
 
         <div><h3>WOULD YOU LIKE<br>TO WORK WITH US?</h3></div>
         <div class="red-line"></div>
@@ -119,6 +120,7 @@ get_header();
             <a href="#" class="btn btn-default btn-orange btn-large">LET'S TALK ABOUT YOUR PROJECT</a>
         </div>
 
+    <div class="clear40"></div>
     <div class="clear40"></div>
 
     </div> 
