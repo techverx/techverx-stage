@@ -263,10 +263,13 @@ class Featured_Post_Widget extends WP_Widget
         extract($args);
         $title = apply_filters('widget_title', $instance['title']);
         echo $before_widget;
-        if ($title) {
-            echo $before_title . $title . $after_title;
-        }
-        echo "<ul class=\"widget-list featured-post-widget featured-post\">";
+        // if ($title) {
+        //     echo $before_title . $title . $after_title;
+        // }
+        echo '<div class="wgt-box">';
+        echo '<h3 class="side-widget-title">Featured Posts</h3>';
+        echo '<div class="flexslider">';
+        echo '<ul class="slides">';
         wp_reset_query();
         global $wp_query;
         $old_query = $wp_query;
@@ -276,16 +279,24 @@ class Featured_Post_Widget extends WP_Widget
             'featured' => 'yes',
             'paged' => 1
         ));
+         
         while ($FeaturedPost_query->have_posts()) {
             $FeaturedPost_query->the_post();
-            echo "<li><a href=\"" . get_permalink() . "\">";
-            echo get_the_title();
-            echo "</a>";
-            echo "</li>";
+            $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+        
+             echo '<li><img src="'.$url.'"> ';
+             echo '<a href="#" class="title">'.get_the_title().'</a>';
+             echo '<div class="date">'.get_the_date().'</div>';
+             echo "</li>";
+           
         }
+        
         wp_reset_query();
         $wp_query = $old_query;
-        echo "</ul>";
+      
+          echo "</ul>";
+          echo "</div>";
+          echo "</div>";
         echo $after_widget;
         // outputs the content of the widget
     }

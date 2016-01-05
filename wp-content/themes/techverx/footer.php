@@ -36,9 +36,11 @@
                             <a href="https://www.facebook.com/TechVerx" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/b-facebook.gif"></a>
                             <a href="https://twitter.com/TechVerx" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/b-twitter.gif"></a>
                             <br>
-                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/b-google.gif"></a>
+                           
+                          <!--   <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/b-google.gif"></a>
                             <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/b-instagram.gif"></a>
                             <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/b-youtube.gif"></a>
+                         -->
                         </div>
                         <div class="clear20"></div>
                         <h4>JOIN OUR<br>NEWSLETTER</h4>
