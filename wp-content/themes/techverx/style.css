@@ -142,7 +142,7 @@ img { border:0; }
 .or-seprator { font-size: 22px; margin-top: 14px; }
 
 .and-style { color: #2F2E2E; font-family: 'Enriqueta', serif; font-size: 50px; background-color: #fff; display: inline-block; padding:8px 0; margin-top: 70px; }
-.and-bg { width:220px; height: 1px; line-height: 1px; font-size: 0; background-color: #f22c2d; -ms-transform: rotate(90deg); -webkit-transform: rotate(90deg); transform: rotate(90deg); position: absolute; z-index: -1; left: -13px; right: 0; top: 120px; bottom: 0; }
+.and-bg { width:220px; height: 1px; line-height: 1px; font-size: 0; background-color: #f22c2d; -ms-transform: rotate(90deg); -webkit-transform: rotate(90deg); transform: rotate(90deg); position: absolute; z-index: -1; left: -27px; right: 0; top: 120px; bottom: 0; }
 
 .homepage .content { margin-top: 880px; clear: both; }
 .content h3, .modal h3 { font-family: 'Enriqueta', serif; font-size: 50px; letter-spacing: 5px; color: #2F2E2E; line-height: 1.4em; }
@@ -286,7 +286,7 @@ img { border:0; }
 .inline-checkbox .checkbox, .inline-checkbox .radio { margin-top: 5px; margin-bottom: 0px; }
 
 label { color: #eb533e; }
-.checkbox label, .radio label { color: #6e7272; }
+.checkbox label, .radio label { color: #6e7272; font-family: 'Libre Baskerville', serif; font-size: 18px; }
 
 .see-more-frm { display: none; }
 .custom-check .hidden-check { display: none; }
@@ -298,6 +298,56 @@ label { color: #eb533e; }
     color: #2f2e2e;
     text-shadow: none;
     font-family: 'Enriqueta', serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 .btn-3:hover{background-color:#ed8844; color: #fff; border: 2px solid #ed8844;  }
+
+
+.custom-radios .custom-radio {
+border-radius: 10px;
+padding: 16px 26px 16px 26px;
+background-image: none;
+background-color: transparent;
+border: 1px solid #ed8844;
+text-shadow: none;
+font-family: 'Enriqueta', serif;
+width: 100%;
+display: block;
+}
+.custom-radios .custom-radio-current {
+background-color: #ed8844;
+color: #fff;
+border: 1px solid #ed8844;
+}
+.realradio { display: none; }
+
+
+.custom-radios2 .custom-radio2 {
+border-radius: 10px;
+padding: 16px 26px 16px 26px;
+background-image: none;
+background-color: transparent;
+border: 1px solid #ed8844;
+text-shadow: none;
+font-family: 'Enriqueta', serif;
+width: 100%;
+display: block;
+}
+.custom-radios2 .custom-radio-current2 {
+background-color: #ed8844;
+color: #fff;
+border: 1px solid #ed8844;
+}
+.realradio2 { display: none; }
+
+
+.first-radio {
+background-color: #ed8844 !important;
+color: #fff !important;
+border: 1px solid #ed8844 !important;
+}
+
+.your-file .input-file-pro { 
+    height: 51px !important;
+    padding: 10px 0 10px 10px !important;
+}

@@ -43,8 +43,7 @@ get_header();
 
         <div class="row">
             <div class="col-md-12">
-
-            <img src="<?php bloginfo('template_directory'); ?>/images/mff-2.gif" class="pull-right img-rounded brd-red shadowed img-right">
+            <img src="<?php bloginfo('template_directory'); ?>/images/mff-2.gif" class="pull-right img-rounded brd-red shadowed img-right" style="margin-top: 38px;">
 
             <h4 class="orange-title-2">How We Helped</h4>
 

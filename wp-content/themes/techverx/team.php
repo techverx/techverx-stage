@@ -50,7 +50,7 @@ get_header();
                     Projects Delivered: 37
                 </div>
             </div>
-            <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
         </div>
 
         <div class="clear40"></div>
@@ -73,7 +73,7 @@ get_header();
                     Projects Delivered: 33
                 </div>
             </div>
-            <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
         </div>
 
         <div class="clear40"></div>        
@@ -96,7 +96,7 @@ get_header();
                     Projects Delivered: 40
                 </div>
             </div>
-            <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
         </div>
 
         <div class="clear40"></div>
@@ -119,7 +119,7 @@ get_header();
                     Projects Delivered: 100+
                 </div>
             </div>
-            <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
         </div>
 
         <div class="clear40"></div>
@@ -142,7 +142,7 @@ get_header();
                     Projects Delivered: 15
                 </div>
             </div>
-            <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
         </div>
 
         <div class="clear40"></div>
@@ -165,7 +165,7 @@ get_header();
                     Projects Delivered: 23
                 </div>
             </div>
-            <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
         </div>
 
         <div class="clear40"></div>        
@@ -189,7 +189,7 @@ get_header();
                     Projects Delivered: 25
                 </div>
             </div>
-            <div class="col-md-2"><a href="#" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
         </div>
 
         
@@ -203,12 +203,13 @@ get_header();
         </div>
 
         <div class="see-more-frm">
-<div><h3 class="text-center">See More Teams</h3></div>
+<div><h3 class="text-center">SEE MORE TEAMS</h3></div>
 <div class="text-center"><div class="red-line"></div></div>
 <div class="clear20"></div>
 
 <p>Let us know your exact requirements and we’ll send you the information you’re looking for within the day.</p>
-
+<?php echo do_shortcode( '[contact-form-7 id="48" title="See More Teams"]' ); ?>
+<!-- 
         <div class="row">
             <div class="col-md-6">
                 <label>My email</label>
@@ -237,7 +238,7 @@ get_header();
                 <button type="button" class="btn btn-default btn-1">Send Hiring Request</button>
             </div>
 
-        </div>
+        </div> -->
 </div>
 
         <div class="clear40"></div>

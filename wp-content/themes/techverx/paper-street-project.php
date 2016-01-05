@@ -46,6 +46,7 @@ get_header();
         <div class="col-md-6"><img src="<?php bloginfo('template_directory'); ?>/images/ps-2.gif" class="img-responsive center-block img-rounded brd-red shadowed"></div>
 
         <div class="col-md-6">
+        <div class="clear30"></div>
             <h4 class="orange-title-2">How We Helped</h4>
             <p class="text-justify">We built the MVP from scratch, with social APIs for Facebook, Twitter and LinkedIn. But that's a piece of cake.</p>
             <div class="clear10"></div>

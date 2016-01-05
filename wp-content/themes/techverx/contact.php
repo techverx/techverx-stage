@@ -5,6 +5,13 @@ Template Name: Contact Template
 
 get_header();
 ?>
+
+<style type="text/css">
+    .wpcf7-validation-errors{
+        display: none;
+    }
+    
+</style>
 <div class="clear"></div>
 
 
@@ -24,7 +31,7 @@ get_header();
 
     <div class="container">
 
-        <div class="text-center"><h3 class="text-center">Talk to the Team</h3>
+        <div class="text-center"><h3 class="text-center">TALK TO THE TEAM</h3>
             <div class="red-line"></div>
         </div>
 
@@ -43,8 +50,10 @@ get_header();
 
         <div class="clear40"></div><div class="clear40"></div>
 
-        <div class="frm-message">
-            <form class="lg-fields">
+        <div class="frm-message lg-fields">
+
+       <?php echo do_shortcode( '[contact-form-7 id="47" title="Contact Main"]' ); ?>
+       <!--      <form class="lg-fields">
                 <label>I am *</label>
                 <input class="form-control" value="" class="" id="">
                 <div class="clear40"></div>
@@ -63,14 +72,16 @@ get_header();
 
                 <div class="clear30"></div>
                 <div class="text-center"><button class="btn btn-default btn-orange btn-orange-current btn-contact-2">SEND MESSAGE</button></div>
-            </form>
+            </form> -->
 
             <div class="clear40"></div>
 
         </div>
 
-        <div class="frm-project">
+        <div class="frm-project lg-fields">
 
+          <?php echo do_shortcode( '[contact-form-7 id="50" title="Project Form"]' ); ?>
+<!-- 
             <form class="lg-fields">
 
                 <div class="row">
@@ -166,38 +177,38 @@ get_header();
 
 
                 <label>Ideal Start Date?</label>
-                <div class="row text-left">
+                <div class="row text-left custom-radios">
                     <div class="col-md-6">
                         <div class="radio">
                           <label>
-                            <input type="radio" name="optionsRadiosDate" id="optionsRadios1" value="option1" checked>
-                            Immediately
+                            <input type="radio" class="realradio" name="optionsRadiosDate" id="optionsRadios1" value="option1" checked>
+                            <div class="custom-radio first-radio">Immediately</div>
                           </label>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="radio">
                           <label>
-                            <input type="radio" name="optionsRadiosDate" id="optionsRadios2" value="option2">
-                            This Month
+                            <input type="radio" class="realradio" name="optionsRadiosDate" id="optionsRadios2" value="option2">
+                            <div class="custom-radio">This Month</div>
                           </label>
                         </div>
                     </div>
                 </div>
-                <div class="row text-left">
+                <div class="row text-left custom-radios">
                     <div class="col-md-6">
                         <div class="radio">
                           <label>
-                            <input type="radio" name="optionsRadiosDate" id="optionsRadios3" value="option3">
-                            Near Future
+                            <input type="radio" class="realradio" name="optionsRadiosDate" id="optionsRadios3" value="option3">
+                            <div class="custom-radio">Near Future</div>
                           </label>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="radio">
                           <label>
-                            <input type="radio" name="optionsRadiosDate" id="optionsRadios4" value="option4">
-                            This Year
+                            <input type="radio" class="realradio" name="optionsRadiosDate" id="optionsRadios4" value="option4">
+                            <div class="custom-radio">This Year</div>
                           </label>
                         </div>
                     </div>
@@ -206,38 +217,38 @@ get_header();
 
 
                 <label>Bullpark Budget?</label>
-                <div class="row text-left">
+                <div class="row text-left custom-radios2">
                     <div class="col-md-6">
                         <div class="radio">
                           <label>
-                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                            Under $25K
+                            <input type="radio" class="realradio2" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                            <div class="custom-radio2 first-radio">Under $25K</div>
                           </label>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="radio">
                           <label>
-                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                            $25k - $50k
+                            <input type="radio" class="realradio2" name="optionsRadios" id="optionsRadios2" value="option2">
+                            <div class="custom-radio2">$25k - $50k</div>
                           </label>
                         </div>
                     </div>
                 </div>
-                <div class="row text-left">
+                <div class="row text-left custom-radios2">
                     <div class="col-md-6">
                         <div class="radio">
                           <label>
-                            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                            $50k - $100k
+                            <input type="radio" class="realradio2" name="optionsRadios" id="optionsRadios3" value="option3">
+                            <div class="custom-radio2">$50k - $100k</div>
                           </label>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="radio">
                           <label>
-                            <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
-                            Not Sure
+                            <input type="radio" class="realradio2" name="optionsRadios" id="optionsRadios4" value="option4">
+                            <div class="custom-radio2">Not Sure</div>
                           </label>
                         </div>
                     </div>
@@ -266,7 +277,7 @@ get_header();
 
                 <div class="clear30"></div>
                 <div class="text-center"><button class="btn btn-default btn-orange btn-orange-current btn-contact-2">SEND PROJECT REQUEST</button></div>
-            </form>
+            </form> -->
 
             <div class="clear40"></div>
 

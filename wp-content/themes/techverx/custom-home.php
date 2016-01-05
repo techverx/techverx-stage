@@ -20,7 +20,7 @@ get_header();
                     <div class="col-md-5 col-sm-5">
                         <img src="<?php bloginfo('template_directory'); ?>/images/homepage-offer-left.gif" class="img-responsive center-block">
                         <div class="clear10"></div>
-                        <p>Web and mobile app development</p>
+                        <p class="text-center">Web and mobile app development</p>
                     </div>
                     <div class="col-md-2 col-sm-2">
                         <div class="and-style">&</div>
@@ -29,7 +29,7 @@ get_header();
                     <div class="col-md-5 col-sm-5">
                         <img src="<?php bloginfo('template_directory'); ?>/images/homepage-offer-right.gif" class="img-responsive center-block">
                         <div class="clear10"></div>
-                        <p>Top tier software talent for hire</p>
+                        <p class="text-center">Top tier software talent for hire</p>
                     </div>
                 </div>
                 
@@ -119,19 +119,16 @@ get_header();
                 <div class="clear40"></div>
 
                 <div class="row text-center">
-                    <div class="col-md-6 col-sm-6">
+                    <div class="col-md-3 col-sm-6">
                         <img src="<?php bloginfo('template_directory'); ?>/images/projects/trackmyassets-small.gif" class="img-responsive center-block img-rounded brd-red">
                     </div>
-                    <div class="col-md-6 col-sm-6">
+                    <div class="col-md-3 col-sm-6">
                         <img src="<?php bloginfo('template_directory'); ?>/images/projects/myfoodfast-small.gif" class="img-responsive center-block img-rounded brd-red">
                     </div>
-                </div>
-                <div class="clear20"></div>
-                <div class="row">
-                    <div class="col-md-6 col-sm-6">
+                    <div class="col-md-3 col-sm-6">
                         <img src="<?php bloginfo('template_directory'); ?>/images/projects/drivingloyalty-small.gif" class="img-responsive center-block img-rounded brd-red">
                     </div>
-                    <div class="col-md-6 col-sm-6">
+                    <div class="col-md-3 col-sm-6">
                         <img src="<?php bloginfo('template_directory'); ?>/images/projects/amishtables-small.gif" class="img-responsive center-block img-rounded brd-red">
                     </div>
                 </div>

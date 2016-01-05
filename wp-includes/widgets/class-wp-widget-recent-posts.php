@@ -68,11 +68,15 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 			'post_status'         => 'publish',
 			'ignore_sticky_posts' => true
 		) ) );
+		?>
 
+
+		  <div class="wgt-box">
+		  <?php
 		if ($r->have_posts()) :
 		?>
 		<?php echo $args['before_widget']; ?>
-		  <div class="wgt-box">
+
 		  <h3 class="side-widget-title">Recent Posts</h3>
 
 	<!-- 	<?php if ( $title ) {
@@ -99,13 +103,14 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 		
 
 		<?php echo $args['after_widget']; ?>
+	
 		<?php
 		// Reset the global $the_post as this query will have stomped on it
 		wp_reset_postdata();
 		?>
 
 	
-		</div>
+			</div>
 		<?php
 		endif;
 	}

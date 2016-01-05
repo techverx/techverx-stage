@@ -46,6 +46,7 @@ get_header();
             </div>    
 
             <div class="col-md-6">
+            <div class="clear20"></div>
                 <h4 class="orange-title-2">How We Helped</h4>
                 <p class="text-justify">We understood that simplicity and ease of use were paramount concerns for a business when it came to sfotware. So we designed a clean and attractive UI giving the user an intuitive, no-frills experience for maximum efficiency. We made the app responsive for greater versatility and also developed a mobile component for on the go management.</p>
             </div>

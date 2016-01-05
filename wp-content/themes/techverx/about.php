@@ -40,7 +40,7 @@ get_header();
     </div>
 
     <div class="clear40"></div>
-
+    <div class="clear40"></div>
     <div class="row">
         <div class="col-md-4">
             <div><h3 class="font-2">'WHY' BEFORE<br>THE WHAT<br>AND HOW</h3></div>
@@ -69,8 +69,6 @@ get_header();
 
         <div class="red-line"></div>
         <div class="clear40"></div>
-
-    <div class="clear40"></div>
 
     <div class="row row-boxes profiles">
         <div class="col-md-6">

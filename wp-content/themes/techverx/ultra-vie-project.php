@@ -43,6 +43,7 @@ get_header();
                 
         <div class="row">
             <div class="col-md-5">
+            <div class="clear30"></div>
                 <h4 class="orange-title-2 text-left">How We Helped</h4>
                 <p class="text-justify">Developing the AI was an incredibly exciting process for us. Starting with an in depth member profile, we designed self-evolving algorithms that search and optimize best matches from the events database and automatically push the most relevant invites to members, as per their subscription. Our algorithms then keep track of each member's activity to always stay up-to-date on their interests and preferences.</p>
                 

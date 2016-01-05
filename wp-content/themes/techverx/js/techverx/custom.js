@@ -89,6 +89,9 @@ $(".click-change").click(function(){
 // custom checkboxes end
 
 
+
+
+
 // show hide specify input
 $('.trigger-other').change(function(){
   console.log("fsd");
@@ -125,6 +128,41 @@ $('.trigger-other').change(function(){
 // custom checkboxes end
 
 
+
+
+// custom radioes 1 starts
+$(".custom-radio").click(function(){
+  $(".custom-radio").removeClass("custom-radio-current")
+  $(".custom-radio").removeClass("first-radio")
+    $(this).toggleClass('custom-radio-current');
+    if($(this).hasClass("custom-radio-current"))
+    {
+
+      $(this).parent().find(".real-radio").prop("checked", true)
+    }
+    else
+    {
+      $(this).parent().find(".real-radio").prop("checked", false) 
+    }
+});
+// custom radioes 1 end
+
+// custom radioes 2 starts
+$(".custom-radio2").click(function(){
+  $(".custom-radio2").removeClass("custom-radio-current2")
+  $(".custom-radio2").removeClass("first-radio")
+    $(this).toggleClass('custom-radio-current2');
+    if($(this).hasClass("custom-radio-current2"))
+    {
+
+      $(this).parent().find(".real-radio2").prop("checked", true)
+    }
+    else
+    {
+      $(this).parent().find(".real-radio2").prop("checked", false)  
+    }
+});
+// custom radioes 2 end
 
 
 

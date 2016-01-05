@@ -18,6 +18,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Techverx</title>
+ <?php wp_head(); ?>
 <meta name="description" content="">
 <meta name="keywords" content="">
 <link rel="shortcut icon" type="image/ico" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
