@@ -18,15 +18,13 @@
                         <div class="clear40"></div>
                         <a href="index.html"><img src="<?php bloginfo('template_directory'); ?>/images/techverx-logo.png" class="img-responsive center-block"></a>
                         <div class="clear40"></div>
-                        <a href="index.html">HOME</a> / 
-                        <a href="about.html">ABOUT</a><br>
-                        <a href="services.html">SERVICES</a> / 
-                        <a href="work.html">WORK</a><br>
-                        <a href="teams.html">TEAMS</a> / 
-                        <a href="contact.html">HIRE DEVELOPERS</a><br>
-                        <a href="contact.html">CONTACT</a> / 
-                        <a href="#">PROJECT PLANNER</a><br>
-                        <a href="blog.html">BLOG</a>
+                        <a href="<?php echo site_url(); ?>">HOME</a> / 
+                        <a href="<?php echo get_page_link(8); ?>">ABOUT</a><br>
+                        <a href="<?php echo get_page_link(12); ?>">SERVICES</a> / 
+                        <a href="<?php echo get_page_link(14); ?>">WORK</a><br>
+                        <a href="<?php echo get_page_link(29); ?>">TEAMS</a> / 
+                        <a href="<?php echo get_page_link(32); ?>">CONTACT</a><br>
+                        <a href="<?php echo get_page_link(35); ?>">BLOG</a>
                     </div>
                     <div class="col-md-4 col-sm-4 right text-center">
                         <h4>FOLLOW US</h4>
