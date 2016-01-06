@@ -193,8 +193,7 @@ get_header();
                     Projects Delivered: 25
                 </div>
             </div>
-            <div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block modal-contact">CONTACT TEAM</a></div><div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
-            
+            <div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block modal-contact">CONTACT TEAM</a></div>
         </div>
 
         
