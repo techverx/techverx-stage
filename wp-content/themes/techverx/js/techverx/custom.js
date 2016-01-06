@@ -169,6 +169,11 @@ $(".custom-radio2").click(function(){
 // custom radioes 2 end
 
 
+$(".modal-contact").click(function(){
+  $(".wpcf7-response-output").hide();
+});
+
+
 
 
   
