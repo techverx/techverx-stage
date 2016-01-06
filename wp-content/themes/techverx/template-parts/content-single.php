@@ -7,17 +7,12 @@
  * @since Twenty Sixteen 1.0
  */
 ?>
+<div class="post-block">
+<div class="title"><?php the_title(); ?></div>
+	<div class="date"><?php echo get_the_date(); ?> | <?php echo get_the_author(); ?></div>
+	<div class="post-image"><?php the_post_thumbnail(array(860,361), array('class' => "img-responsive center-block") ) ?></div>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
-
-	<?php twentysixteen_excerpt(); ?>
-
-	<?php twentysixteen_post_thumbnail(); ?>
-
-	<div class="entry-content">
+	<div class="post">
 		<?php
 			the_content();
 
@@ -34,20 +29,5 @@
 				get_template_part( 'template-parts/biography' );
 			}
 		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php twentysixteen_entry_meta(); ?>
-		<?php
-			edit_post_link(
-				sprintf(
-					/* translators: %s: Name of current post */
-					__( 'Edit<span class="screen-reader-text"> "%s"</span>', 'twentysixteen' ),
-					get_the_title()
-				),
-				'<span class="edit-link">',
-				'</span>'
-			);
-		?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
+	</div>
+</div>

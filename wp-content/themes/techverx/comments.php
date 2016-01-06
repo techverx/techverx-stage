@@ -20,10 +20,10 @@ if ( post_password_required() ) {
 }
 ?>
 
-<div id="comments" class="comments-area">
+<div id="comments" class="comment-block">
 
 	<?php if ( have_comments() ) : ?>
-		<h2 class="comments-title">
+		<h3>
 			<?php
 				$comments_number = get_comments_number();
 				if ( 1 === $comments_number ) {
@@ -44,7 +44,7 @@ if ( post_password_required() ) {
 					);
 				}
 			?>
-		</h2>
+		</h3>
 
 		<?php the_comments_navigation(); ?>
 

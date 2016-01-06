@@ -9,9 +9,18 @@
 
 get_header(); ?>
 
-<div id="primary" class="content-area">
-	<main id="main" class="site-main" role="main">
-		<?php
+
+
+<section>
+	<div class="content">
+
+		<div class="clear40"></div>
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-9">
+					<?php
 		// Start the loop.
 		while ( have_posts() ) : the_post();
 
@@ -22,33 +31,15 @@ get_header(); ?>
 			if ( comments_open() || get_comments_number() ) {
 				comments_template();
 			}
-
-			if ( is_singular( 'attachment' ) ) {
-				// Parent post navigation.
-				the_post_navigation( array(
-					'prev_text' => _x( '<span class="meta-nav">Published in</span><span class="post-title">%title</span>', 'Parent post link', 'twentysixteen' ),
-				) );
-			} elseif ( is_singular( 'post' ) ) {
-				// Previous/next post navigation.
-				the_post_navigation( array(
-					'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'twentysixteen' ) . '</span> ' .
-						'<span class="screen-reader-text">' . __( 'Next post:', 'twentysixteen' ) . '</span> ' .
-						'<span class="post-title">%title</span>',
-					'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'twentysixteen' ) . '</span> ' .
-						'<span class="screen-reader-text">' . __( 'Previous post:', 'twentysixteen' ) . '</span> ' .
-						'<span class="post-title">%title</span>',
-				) );
-			}
-
-			// End of the loop.
-		endwhile;
-		?>
-
-	</main><!-- .site-main -->
-
-	<?php get_sidebar( 'content-bottom' ); ?>
-
-</div><!-- .content-area -->
-
-<?php get_sidebar(); ?>
+			endwhile;
+?>
+				</div>
+				  <div class="col-md-3">
+          
+                 <?php get_sidebar('blog-sidebar'); ?>
+                 </div> 
+			</div>
+		</div>
+	</div>
+            </section>
 <?php get_footer(); ?>

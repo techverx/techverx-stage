@@ -225,7 +225,7 @@ img { border:0; }
 .img-right { margin-left: 40px; margin-bottom: 20px; }
 
 .frm-project { display: none; }
-.lg-fields label { display: block; text-align: center; font-size: 20px; font-weight: bold; margin-bottom: 10px; letter-spacing: 1px; }
+.lg-fields label { display: block; text-align: center; font-size: 20px; font-weight: bold; margin-bottom: 10px; letter-spacing: 1px; font-family: 'Libre Baskerville', serif !important;}
 .lg-fields .form-control { font-size: 20px; padding: 22px 12px !important; }
 .lg-fields .padding-normal { padding: 12px !important; }
 
@@ -273,8 +273,8 @@ img { border:0; }
 .dots { background:url(../techverx/images/dots.png); width: 100%; height: 100%; position: absolute; }
 .specify-other { display: none; }
 
-#hireTeam { z-index: 999999; }
-#hireTeam .modal-body { padding: 20px 30px; }
+#hireTeam, #contactTeam { z-index: 999999; }
+#hireTeam .modal-body, #contactTeam .modal-body { padding: 20px 30px; }
 
 .modal .checkbox, .modal .radio { margin-top: 0px; }
 .modal label { font-weight: normal; }
@@ -286,7 +286,7 @@ img { border:0; }
 .inline-checkbox .checkbox, .inline-checkbox .radio { margin-top: 5px; margin-bottom: 0px; }
 
 label { color: #eb533e; }
-.checkbox label, .radio label { color: #6e7272; font-family: 'Libre Baskerville', serif; font-size: 18px; }
+.checkbox label, .radio label { color: #6e7272; font-family: 'Libre Baskerville', serif !important; font-size: 18px; }
 
 .see-more-frm { display: none; }
 .custom-check .hidden-check { display: none; }
@@ -351,3 +351,34 @@ border: 1px solid #ed8844 !important;
     height: 51px !important;
     padding: 10px 0 10px 10px !important;
 }
+
+.comment-block h3 { font-size: 30px; letter-spacing: 1px; }
+.single-comment { border:1px solid #2f2e2e; padding: 10px; margin-bottom: 20px; }
+.single-comment .name { font-weight: bold; }
+.single-comment .date { font-size: 13px; }
+.single-comment .details { font-size: 14px; }
+.single-comment .reply a, .single-comment .reply .fa { color: #999; font-size: 14px; }
+.single-comment .reply a:hover { color: #333; }
+.single-comment .reply .fa:hover { color: #999; }
+
+
+.comment-form label { display:block; clear: both; }
+.comment-form #comment, .comment-form #author, .comment-form #email, .comment-form #url  { width: 100%; }
+
+.form-submit #submit {
+    background-image: none;
+    background-color: transparent;
+    border-radius: 0;
+    border: 2px solid #ed8844;
+    color: #2f2e2e;
+    text-shadow: none;
+    font-family: 'Enriqueta', serif;
+    font-size: 14px;
+}
+.form-submit #submit:hover { color: #fff; background-color: #ed8844; border-color: #ed8844; }
+
+.comment-list .comment { border: 1px solid #ccc; padding:10px; margin-bottom: 20px; }
+.comment-metadata, .comment-metadata a, .reply { color:#666; }
+.fn a { color: #333; }
+.reply a { color:#ed8844; }
+

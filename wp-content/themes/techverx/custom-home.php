@@ -73,7 +73,7 @@ get_header();
                 <div class="clear40"></div>
                 
                 <div class="row text-center">
-                    <a href="#" class="btn btn-default btn-orange">OUR SOLUTIONS <i class="fa fa-angle-right"></i></a>
+                    <a href="<?php echo get_page_link(12); ?>" class="btn btn-default btn-orange">OUR SOLUTIONS <i class="fa fa-angle-right"></i></a>
                 </div>
 
                 <div class="clear40"></div><div class="clear20"></div>
@@ -104,7 +104,7 @@ get_header();
                 <div class="clear40"></div>
 
                 <div class="row text-center">
-                    <a href="<?php echo get_page_link(12); ?>" class="btn btn-default btn-orange">WHY TECHVERX <i class="fa fa-angle-right"></i></a>
+                    <a href="<?php echo get_page_link(8); ?>" class="btn btn-default btn-orange">WHY TECHVERX <i class="fa fa-angle-right"></i></a>
                 </div>
 
 

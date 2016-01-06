@@ -50,7 +50,7 @@ get_header();
                     Projects Delivered: 37
                 </div>
             </div>
-            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div><div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
         </div>
 
         <div class="clear40"></div>
@@ -73,7 +73,8 @@ get_header();
                     Projects Delivered: 33
                 </div>
             </div>
-            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div><div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+
         </div>
 
         <div class="clear40"></div>        
@@ -96,7 +97,8 @@ get_header();
                     Projects Delivered: 40
                 </div>
             </div>
-            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div><div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+
         </div>
 
         <div class="clear40"></div>
@@ -119,7 +121,8 @@ get_header();
                     Projects Delivered: 100+
                 </div>
             </div>
-            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div><div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+
         </div>
 
         <div class="clear40"></div>
@@ -142,7 +145,8 @@ get_header();
                     Projects Delivered: 15
                 </div>
             </div>
-            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div><div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+
         </div>
 
         <div class="clear40"></div>
@@ -165,7 +169,8 @@ get_header();
                     Projects Delivered: 23
                 </div>
             </div>
-            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div><div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+
         </div>
 
         <div class="clear40"></div>        
@@ -189,7 +194,8 @@ get_header();
                     Projects Delivered: 25
                 </div>
             </div>
-            <div class="col-md-2"><a href="<?php echo get_page_link(32); ?>" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            <div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div><div class="col-md-2"><a href="#" data-toggle="modal" data-target="#contactTeam" class="btn btn-default btn-orange btn-block">CONTACT TEAM</a></div>
+            
         </div>
 
         
@@ -246,6 +252,52 @@ get_header();
     </div>
     </div>
 </section>
+
+<div class="modal fade" id="contactTeam" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+        <div><h3 class="text-center">TALK TO THE TEAM</h3></div>
+        <div class="text-center"><div class="red-line"></div></div>
+
+        <div class="clear20"></div>
+
+        <p>Get in touch with your desired team directly! Leave a message with your questions and project overview and the team will answer within the day.</p>
+
+        <div class="clear40"></div>
+        
+        <div class="lg-fields">
+                <label>I am *</label>
+                <input class="form-control" value="" id="">
+                <div class="clear20"></div>
+                <label>My email *</label>
+                <input class="form-control" value="" id="">
+                <div class="clear20"></div>
+                <label>Message *</label>
+                <textarea class="form-control padding-normal" value="" id="" rows="5"></textarea>
+                <div class="clear20"></div>
+
+                <div class="checkbox">
+                    <label>
+                      <input type="checkbox" checked="checked"> Keep me updated with Techverx USA news and goodies
+                    </label>
+                </div>
+
+
+            </div>                
+
+
+      </div>
+      <div class="modal-footer text-center modal-footer-center">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default btn-1">SEND MESSAGE</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <?php get_footer(); ?>
