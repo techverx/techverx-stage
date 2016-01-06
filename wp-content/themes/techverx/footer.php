@@ -16,7 +16,7 @@
                     <div class="col-md-4 col-sm-4 middle text-center">
                         <img src="<?php bloginfo('template_directory'); ?>/images/techverx-bottom.gif" class="img-responsive center-block">
                         <div class="clear40"></div>
-                        <a href="index.html"><img src="<?php bloginfo('template_directory'); ?>/images/techverx-logo.png" class="img-responsive center-block"></a>
+                        <a href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/techverx-logo.png" class="img-responsive center-block"></a>
                         <div class="clear40"></div>
                         <a href="<?php echo site_url(); ?>">HOME</a> / 
                         <a href="<?php echo get_page_link(8); ?>">ABOUT</a><br>
