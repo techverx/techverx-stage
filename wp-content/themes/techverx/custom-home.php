@@ -120,16 +120,24 @@ get_header();
 
                 <div class="row text-center">
                     <div class="col-md-3 col-sm-6">
+                    <a href="<?php echo get_page_link(22); ?>">
                         <img src="<?php bloginfo('template_directory'); ?>/images/projects/trackmyassets-small.gif" class="img-responsive center-block img-rounded brd-red">
+                    </a>
                     </div>
                     <div class="col-md-3 col-sm-6">
+                    <a href="<?php echo get_page_link(20); ?>">
                         <img src="<?php bloginfo('template_directory'); ?>/images/projects/myfoodfast-small.gif" class="img-responsive center-block img-rounded brd-red">
+                    </a>
                     </div>
                     <div class="col-md-3 col-sm-6">
+                    <a href="<?php echo get_page_link(18); ?>">
                         <img src="<?php bloginfo('template_directory'); ?>/images/projects/drivingloyalty-small.gif" class="img-responsive center-block img-rounded brd-red">
+                    </a>
                     </div>
                     <div class="col-md-3 col-sm-6">
+                    <a href="<?php echo get_page_link(16); ?>">
                         <img src="<?php bloginfo('template_directory'); ?>/images/projects/amishtables-small.gif" class="img-responsive center-block img-rounded brd-red">
+                    </a>
                     </div>
                 </div>
 
