@@ -61,9 +61,11 @@ $(".offer-section-go").click(function(e) {
 // custom checkboxes starts
 $(".click-change").click(function(){
   // aaa = this;
+   console.log("assv");
+      abcd = this;
   if($.trim($(this).text()) == "Other")
   {
-    if($(this).parent().find(".hidden-check").is(':checked'))
+    if($(this).parent().find('input:checkbox:first').is(':checked'))
     {
             $('.specify-other').fadeOut('fast');
             }
@@ -79,11 +81,11 @@ $(".click-change").click(function(){
     if($(this).hasClass("btn-orange-current-2"))
     {
 
-      $(this).parent().find(".hidden-check").prop("checked", true)
+      $(this).parent().find('input:checkbox:first').prop("checked", true)
     }
     else
     {
-      $(this).parent().find(".hidden-check").prop("checked", false) 
+      $(this).parent().find('input:checkbox:first').prop("checked", false) 
     }
 });
 // custom checkboxes end
@@ -113,6 +115,8 @@ $('.trigger-other').change(function(){
 
 // custom checkboxes starts
   $(".checkbox-wrapper .checkbox").click(function() {
+      console.log("assv");
+      abcd = this;
       $(this).toggleClass('checked');
       
       if($(this).hasClass("checked"))
