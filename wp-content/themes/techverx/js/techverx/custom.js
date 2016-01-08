@@ -193,3 +193,16 @@ $(window).load(function() {
 
 });
 /* Window.Load Ends */
+
+$("#commentform").submit(function(e){
+  if($("#comment").val() && $("#author").val() && $("#email").val())
+  {
+    return true;
+  }
+  else
+  {
+    $(".comment-custome").last().text("Please fill all the required fields.");
+    $(".comment-custome").css("color", "red");
+    e.preventDefault();
+  }
+});

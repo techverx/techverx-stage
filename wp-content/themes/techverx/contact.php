@@ -42,7 +42,7 @@ get_header();
 
         <div class="clear20"></div>
 
-<div class="text-center">We love hearing about exciting new ideas. Your message will be confidentially sent to the TechVerx management. It'll be placed to the top of the stack and we'll respond to you today. If you'd prefer to speak to someone right away,<br>call us at 1-844-539-3562 or +92-42-35956398</div>
+<div class="text-center">We love hearing about exciting new ideas. Your message will be confidentially sent to the TechVerx management. It'll be placed to the top of the stack and we'll respond to you today. If you'd prefer to speak to someone right away,<br>call us at +1-844-539-3562</div>
 
         <div class="clear40"></div><div class="clear20"></div>
 

@@ -75,6 +75,7 @@ get_header();
             <img src="<?php bloginfo('template_directory'); ?>/images/rao-mohsin-raza.gif" class="img-responsive center-block img-rounded brd-red">
             <h3>RAO MOHSIN RAZA</h3>
             <h4>Founder</h4>
+            <div class="clear10"></div>
             <p class="text-justify">A software engineer by qualification and a corporate HR professional in another life, in reality Rao 
 
 Mohsin Raza is a natural born entrepreneur. Techverx is his baby; born in his laptop at his home, 
@@ -93,6 +94,7 @@ an IAOP Certified Outsourcing Professional.</p>
             <img src="<?php bloginfo('template_directory'); ?>/images/peter.gif" class="img-responsive center-block img-rounded brd-red">
             <h3>PETER J. SPERRY</h3>
             <h4>Co-Founder</h4>
+            <div class="clear10"></div>
             <p class="text-justify">A software veteran with over 15 years of global experience as a developer and CTO 
 
 in various industries, Peter is a holistic solution oriented thinker and our not-so-
@@ -115,7 +117,8 @@ management systems and 3rd party integrations.</p>
         <div class="col-md-4">
             <img src="<?php bloginfo('template_directory'); ?>/images/umar.gif" class="img-responsive center-block img-rounded brd-red">
             <h3>UMAR KHAN BURKI</h3>
-            <h4>Head of Sales</h4>
+            <h4>VP Sales & Marketing</h4>
+            <div class="clear10"></div>
             <p class="text-justify">Umar years of sales experienced, having worked in retail and software industries. 
 
 He specializes in B2B sales and account management, personally involved with all 
@@ -128,6 +131,7 @@ service to the clients.</p>
             <img src="<?php bloginfo('template_directory'); ?>/images/usman.gif" class="img-responsive center-block img-rounded brd-red">
             <h3>USMAN KHAN</h3>
             <h4>Princiapal Software Architect</h4>
+            <div class="clear10"></div>
             <p class="text-justify">A highly energetic and self motivated team leader, Usman has over 10 years of
 
 software engineering experience. He is known for his ability to validate and design 
@@ -146,6 +150,7 @@ work, for stable, predictable, and trustworthy services.</p>
             <img src="<?php bloginfo('template_directory'); ?>/images/faraz.gif" class="img-responsive center-block img-rounded brd-red">
             <h3>FARAZ MALIK</h3>
             <h4>Chief Creative Officer</h4>
+            <div class="clear10"></div>
             <p class="text-justify">With over a decade of combined experienced in advertising and broadcast media, 
 
 Faraz is a seasoned storyteller and marketing expert with creativity and art 
