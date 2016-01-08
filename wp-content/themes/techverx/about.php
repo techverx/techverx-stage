@@ -53,7 +53,7 @@ get_header();
             </p>
         </div>
         
-        <div class="col-md-4"><img src="<?php bloginfo('template_directory'); ?>/images/why-what.gif" class="img-responsive center-block"></div>
+        <div class="col-md-4"><img src="<?php bloginfo('template_directory'); ?>/images/why-what.gif" class="img-responsive center-block img-margin-1"></div>
 
         <div class="col-md-4">
             <div><h3 class="font-2">PASSION, FUN AND THE PURSUIT OF EXCELLENCE</h3></div>

@@ -21,6 +21,7 @@
 .col-md-6, .col-md-4 { margin-bottom: 40px; }
 .or-seprator { margin-top: 10px; margin-bottom: 10px; }
 .frm-message, .btns, .frm-project { padding:0 15px; }
+.img-margin-1 { margin-top: 0px;}
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
 .fullscreen-bg { top: 70px; }
@@ -45,6 +46,8 @@
 .col-md-6, .col-md-4 { margin-bottom: 40px; }
 .or-seprator { margin-top: -29px; margin-bottom: 10px; }
 .frm-message, .btns, .frm-project { padding:0 15px; }
+.img-margin-1 { margin-top: 0px;}
+
 }
 @media screen and (min-width: 480px) and (max-width: 639px) {
 .homepage .content { margin-top: 280px; }
@@ -62,6 +65,8 @@
 .col-md-6, .col-md-4 { margin-bottom: 40px; }
 .or-seprator { margin-top: -29px; margin-bottom: 10px; }
 .frm-message, .btns, .frm-project { padding:0 15px; }
+.img-margin-1 { margin-top: 0px;}
+
 }
 @media screen and (min-width: 640px) and (max-width: 767px) {
 .homepage .content { margin-top: 360px; }
@@ -78,6 +83,8 @@
 .col-md-6, .col-md-4 { margin-bottom: 40px; }
 .or-seprator { margin-top: -29px; margin-bottom: 10px; }
 .frm-message, .btns, .frm-project { padding:0 15px; }
+.img-margin-1 { margin-top: 0px;}
+
 }
 @media screen and (min-width: 768px) and (max-width: 1003px) {
 .homepage .content { margin-top: 430px; }
@@ -92,6 +99,8 @@
 .col-md-6, .col-md-4 { margin-bottom: 40px; }
 .or-seprator { margin-top: 10px; margin-bottom: 10px; }
 .frm-message, .btns, .frm-project { padding:0 15px; }
+.img-margin-1 { margin-top: 0px;}
+
 }
 @media screen and (min-width: 1004px) and (max-width: 1259px) {
 .homepage .content { margin-top: 580px; }

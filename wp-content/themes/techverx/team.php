@@ -215,7 +215,7 @@ get_header();
 <?php echo do_shortcode( '[contact-form-7 id="48" title="See More Teams"]' ); ?>
 </div>
 
-        <div class="clear40"></div>
+        <div class="clear20"></div>
 
     </div>
     </div>
@@ -223,7 +223,7 @@ get_header();
 
 <div class="modal fade" id="contactTeam" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
+    <div class="modal-content team-modal">
       <div class="modal-body">
 
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -235,7 +235,7 @@ get_header();
 
         <p>Get in touch with your desired team directly! Leave a message with your questions and project overview and the team will answer within the day.</p>
 
-        <div class="clear40"></div>
+        <div class="clear20"></div>
         
         <div class="lg-fields">
               

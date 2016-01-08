@@ -10,6 +10,10 @@ get_header();
     .wpcf7-validation-errors{
         display: none;
     }
+    .custom-radio-current2{
+        color: #fff !important;
+    }
+
     
 </style>
 <div class="clear"></div>
@@ -31,14 +35,14 @@ get_header();
 
     <div class="container">
 
-        <div class="text-center"><h3 class="text-center">TALK TO THE TEAM</h3>
+        <div class="text-center"><h3 class="text-center">GET A RESPONSE TODAY</h3>
             <div class="red-line"></div>
         </div>
 
 
         <div class="clear20"></div>
 
-        <div class="text-center">Get in touch with your desired team directly! Leave a message with your questions and project overview and the team will answer within the day.</div>
+<div class="text-center">We love hearing about exciting new ideas. Your message will be confidentially sent to the TechVerx management. It'll be placed to the top of the stack and we'll respond to you today. If you'd prefer to speak to someone right away,<br>call us at 1-844-539-3562 or +92-42-35956398</div>
 
         <div class="clear40"></div><div class="clear20"></div>
 
@@ -48,9 +52,9 @@ get_header();
             <div class="col-md-5 project"><a href="#" class="btn btn-default btn-orange btn-block btn-contact">KICK START PROJECT</a></div>
         </div>
 
-        <div class="clear40"></div><div class="clear40"></div>
+        <div class="clear40"></div>
 
-        <div class="frm-message lg-fields">
+        <div class="frm-message lg-fields contact-main-form">
 
        <?php echo do_shortcode( '[contact-form-7 id="47" title="Contact Main"]' ); ?>
        <!--      <form class="lg-fields">
@@ -78,7 +82,7 @@ get_header();
 
         </div>
 
-        <div class="frm-project lg-fields">
+        <div class="frm-project lg-fields project-contact-form">
 
           <?php echo do_shortcode( '[contact-form-7 id="50" title="Project Form"]' ); ?>
 <!-- 

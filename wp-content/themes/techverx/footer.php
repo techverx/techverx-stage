@@ -67,7 +67,7 @@
 
 <div class="modal fade" id="hireTeam" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-lg" role="document">
-  <div class="modal-content">
+  <div class="modal-content hiring-modal">
    <?php echo do_shortcode( '[contact-form-7 id="49" title="Hiring Form"]' ); ?>
    </div>
   </div>
