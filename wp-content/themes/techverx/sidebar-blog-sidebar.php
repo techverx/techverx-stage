@@ -16,8 +16,8 @@
 <div class="wgt-box">
     <h3 class="side-widget-title">Follow Us</h3>
     <div>
-        <a href="https://www.facebook.com/TechVerx" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/blog/blog-fb.jpg"></a> 
-        <a href="https://twitter.com/TechVerx" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/blog/blog-twit.jpg"></a> 
-        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog/blog-goog.jpg"></a> 
+        <a href="https://www.facebook.com/TechverxUSA/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/blog/facebook.png" style="max-width: 32px;"></a> 
+        <a href="https://twitter.com/TechVerx" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/blog/twitter.png" style="max-width: 32px;"></a> 
+        <a href="https://www.linkedin.com/company/techverx"><img src="<?php bloginfo('template_directory'); ?>/images/blog/linkedin.png" style="max-width: 32px;"></a> 
     </div>
 </div>

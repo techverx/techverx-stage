@@ -31,7 +31,7 @@
                         <div class="clear10"></div>
                         <div class="socials">
                             <a href="https://www.linkedin.com/company/techverx" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/b-linkedin.gif"></a>
-                            <a href="https://www.facebook.com/TechVerx" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/b-facebook.gif"></a>
+                            <a href="https://www.facebook.com/TechverxUSA/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/b-facebook.gif"></a>
                             <a href="https://twitter.com/TechVerx" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/b-twitter.gif"></a>
                             <br>
                            
