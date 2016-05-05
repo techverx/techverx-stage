@@ -24,6 +24,10 @@
  * @subpackage Twenty_Sixteen
  * @since Twenty Sixteen 1.0
  */
+if ( ! isset( $content_width ) ) {
+	$content_width = 660;
+}
+
 
 /**
  * Twenty Sixteen only works in WordPress 4.4 or later.
@@ -44,6 +48,19 @@ if ( ! function_exists( 'twentysixteen_setup' ) ) :
  *
  * @since Twenty Sixteen 1.0
  */
+
+/*
+function register_my_menu() {
+  register_nav_menu('top-menu',__( 'Top Menu' ));
+}
+add_action( 'init', 'register_my_menu' );*/
+
+  
+
+
+
+
+
 function twentysixteen_setup() {
 	/*
 	 * Make theme available for translation.
@@ -56,6 +73,9 @@ function twentysixteen_setup() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
+
+
+  
 	/*
 	 * Let WordPress manage the document title.
 	 * By adding theme support, we declare that this theme does not use a
@@ -106,6 +126,8 @@ function twentysixteen_setup() {
 		'audio',
 		'chat',
 	) );
+
+
 
 	/*
 	 * This theme styles the visual editor to resemble the theme style,

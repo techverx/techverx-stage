@@ -97,3 +97,58 @@ img { border:0; }
 .responsive-menu { position: absolute; width: 100%; top: 109px; z-index: 999999; display: none; }
 .responsive-menu ul li a { display: block; background-color: #ed8844; padding: 10px; width: 100%; color: #fff; }
 .responsive-menu ul li a:hover { background-color: #e4782e; }
+
+
+
+/* Custom CSS Styles */
+
+
+.carousel-control .icon-prev:before, .carousel-control .icon-next:before { font-size: 60px; }
+.carousel-caption { margin: 0 0 30px 0; background: rgba(0,0,0,0.5); right: 0; left: 0; }
+.carousel-caption h2 { font-size: 30px; text-shadow:1px 1px 6px #000; width: 100%; text-transform: capitalize; }
+.carousel-caption p { text-shadow:1px 1px 6px #000; width: 100%; }
+
+.slider-section { background-color: #000; }
+
+.carousel-indicators li, .carousel-indicators .active { margin-left: 5px; margin-right: 5px; border: 2px solid #fff; }
+
+.modal .custom-close .close { right: 18px; top: 10px; font-size: 31px; cursor: pointer; position: absolute; z-index: 9999; opacity: 1; color: #fff; text-shadow:1px 1px 10px #000; }
+.modal .embed-responsive-16by9 { background-color: #000; }
+
+.embed-responsive-16by9 { padding-bottom: 57.2% !important; }
+
+.slider-section, .carousel-inner, .carousel-inner .item { overflow:hidden; max-height:780px !important; }
+.carousel-indicators { bottom: 0px; }
+.carousel-control { width: 5%; }
+
+#specials { background-color: #eee; }
+#specials .document-wrapper { padding-top: 15px; background-color: #fff; }
+#specials .details { margin-bottom: 20px; }
+#specials .section-title { background-color: #fff; margin-bottom: 0; padding: 30px 0 10px 0; }
+#specials, #about, #products, #testimonials, #contact { padding: 30px 0; }
+.section-title { font-size: 24px; text-transform: uppercase; margin-bottom: 30px; font-weight: 600; letter-spacing: 1px; }
+
+#about { background-color: #eee; }
+#testimonials { background-color: #fff; 
+/*background: -webkit-linear-gradient(#fff, #2caab3);
+background: -o-linear-gradient(#fff, #2caab3);
+background: -moz-linear-gradient(#fff, #2caab3);
+background: linear-gradient(#fff, #2caab3);
+*/}
+#testimonials .section-title, #testimonials p, #testimonials strong { color: #000; }
+
+
+
+.owl-carousel p { font-weight: 400; font-size: 21px; }
+.owl-carousel strong { display: inline-block; font-weight: 400 !important; font-size: 14px; margin:20px auto; }
+.owl-theme .owl-controls .owl-buttons div { background: #000; }
+
+.flexslider .slides img { width: auto; }
+.flex-direction-nav a { height: 45px; top: 40%; }
+.owl-wrapper-outer img{width: 200px;}
+#testimonials hr {
+    background: #000 none repeat scroll 0 0;
+    height: 1px;
+    max-width: 15%;
+}
+

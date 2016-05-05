@@ -126,13 +126,11 @@ get_header();
 
 <div class="container text-center">
     <a href="<?php echo get_page_link(24); ?>" class="btn btn-default btn-orange brd-rds-4">< PREVIOUS</a> &nbsp; &nbsp; 
-    <a href="<?php echo get_page_link(14); ?>" class="btn btn-default btn-orange brd-rds-4">BACK TO MAIN ></a>
+    <a href="<?php echo get_page_link(66); ?>" class="btn btn-default btn-orange brd-rds-4">NEXT PROJECT></a>
 </div>
 
 
 <div class="clear40"></div><div class="clear20"></div>
-
-
 <div class="container">
         <div class="text-center">
             <div><h3>WHAT CAN WE<br>BUILD FOR YOU?</h3></div>

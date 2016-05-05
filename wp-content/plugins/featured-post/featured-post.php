@@ -285,7 +285,7 @@ class Featured_Post_Widget extends WP_Widget
             $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
         
              echo '<li><img src="'.$url.'"> ';
-             echo '<a href="#" class="title">'.get_the_title().'</a>';
+             echo '<a href="'.get_post_permalink().'" class="title">'.get_the_title().'</a>';
              echo '<div class="date">'.get_the_date().'</div>';
              echo "</li>";
            
